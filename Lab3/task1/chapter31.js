@@ -14,7 +14,7 @@ let greater = user1 > user2;
 // binary plus uses the "default" hint
 let total = obj1 + obj2;
 // obj == number uses the "default" hint
-if (user == 1) { ... };
+if (user == 1) { /*...*/ };
 
 obj[Symbol.toPrimitive] = function(hint) {
   // here goes the code to convert this object to a primitive
